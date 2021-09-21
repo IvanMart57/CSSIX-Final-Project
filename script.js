@@ -1,9 +1,8 @@
 let minInput, hrInput, alarmMin, alarmHr, alarmDisplay, alarmSound1, ampmButton, alarmAMPM, alarmScene, froggerScene, alarmWin, alarmRun, songButton, currentSong;
-let executeAlarmOnce; //-Zach
+let executeAlarmOnce;
 let initializeOnce;
 let isAMPM = "AM";
 let frogX, frogY, score, lives, gameIsOver, car1X, car1Y, car1V, safeY, globalS, globalB, move, car2X, car2Y, car2V, car3X, car3Y, car3V;
-//Awesome project idea by the way! looking forward to it - Zach =)
 
 
  function preload() {
